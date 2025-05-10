@@ -1,0 +1,97 @@
+1.5.5
+
+Objectives
+The network model in this activity incorporates many of the technologies that you will master in your CCNA studies. It represents a simplified version of how a small to medium-sized business network might look. Feel free to explore the network on your own. When you are ready, proceed through the following steps and answer the questions.
+
+Note: It is not important that you understand everything you see and do in this activity. Feel free to explore the network on your own. If you wish to proceed more systematically, follow the steps below. Answer the questions to the best of your ability.
+
+Instructions
+Part 1: Identify common components of a network as represented in Packet Tracer.
+The icon toolbar at the bottom left hand corner has various categories of networking components. You should see categories that correspond to intermediary devices, end devices, and media. The Connections category (with the lightning bolt icon) represents the networking media supported by Packet Tracer. There is also an End Devices category and two categories specific to Packet Tracer: Custom Made Devices and Multiuser Connection.
+
+Questions:
+List the intermediary device categories.
+- Switches
+- Routers
+- Hubs
+- Wireless Devices (Access Points)
+- Firewalls
+- Modems
+
+Without entering into the internet cloud or intranet cloud, how many icons in the topology represent endpoint devices (only one connection leading to them)?
+17
+
+Without counting the two clouds, how many icons in the topology represent intermediary devices (multiple connections leading to them)?
+11
+
+How many end devices are not desktop computers?
+10
+
+How many different types of media connections are used in this network topology?
+3
+Copper straight-through (black solid)
+Serial (red)
+Wireless
+
+Part 2: Explain the purpose of the devices.
+Questions:
+a.     In Packet Tracer, only the Server-PT device can act as a server. Desktop or Laptop PCs cannot act as a server. Based on your studies so far, explain the client-server model. Perform an internet search if needed.
+Serwer udostępnia usługi, dane, pliki, aplikacje.
+Klient (np. komputer użytkownika) wysyła żądania i odbiera odpowiedzi od serwera.
+Przykład: przeglądarka (klient) łączy się z serwerem WWW, aby pobrać stronę internetową.
+
+b.     List at least two functions of intermediary devices.
+Przesyłanie danych między urządzeniami w sieci (routing, switching)
+Zapewnienie bezpieczeństwa i filtrowania ruchu (np. firewalle)
+
+c.     List at least two criteria for choosing a network media type.
+Przepustowość (jak szybkie ma być połączenie)
+Odległość (np. światłowód do dalekich połączeń)
+
+Part 3: Compare and contrast LANs and WANs.
+Questions:
+a.     Explain the difference between a LAN and a WAN. Give examples of each.
+LAN (Local Area Network): sieć lokalna, np. w domu, szkole, biurze.
+WAN (Wide Area Network): sieć rozległa, np. Internet, sieć łącząca biura w różnych miastach.
+
+b.     In the Packet Tracer network, how many WANs do you see?
+Można uznać, że są 2 sieci WAN: między routerami R2 i R4 oraz między nimi a chmurą internetową
+
+c.     How many LANs do you see?
+3
+LAN w centrali
+LAN w oddziale
+LAN w biurze domowym
+
+d.     The internet in this Packet Tracer network is overly simplified and does not represent the structure and form of the real internet. Briefly describe the internet.
+Internet to zbiór urządzeń pośredniczących umożliwiających komunikację między wieloma sieciami i urządzeniami na całym świecie.
+
+e.     What are some of the common ways a home user connects to the internet?
+Kabel koncentryczny (kablowy Internet)
+DSL
+Łącze satelitarne
+LTE, 5G, hotspot
+
+f.      What are some common methods that businesses use to connect to the internet in your area?
+E-commerce
+Komunikacja e-mail
+Ruch na stronie internetowej
+Telefony IP
+
+Challenge Question
+Now that you have had an opportunity to explore the network represented in this Packet Tracer activity, you may have picked up a few skills that you would like to try out. Or maybe you would like the opportunity to explore this network in more detail. Realizing that most of what you see and experience in Packet Tracer is currently beyond your skill level, here are some challenges you might want to attempt. Do not worry if you cannot do them all. You will be a Packet Tracer master user and network designer soon enough.
+
+=   Add an end device to the topology and connect it to one of the LANs with a media connection. What else does this device need to send data to other end users? Can you provide the information? Is there a way to verify that you correctly connected the device?
+Potrzebuje adresu IP (przydzielonego dynamicznie przez DHCP lub ręcznie)
+Można to sprawdzić za pomocą ipconfig oraz polecenia ping (np. ping do bramy domyślnej)
+
+=   Add a new intermediary device to one of the networks and connect it to one of the LANs or WANs with a media connection. What else does this device need to serve as an intermediary to other devices in the network?
+Włączonego interfejsu (np. no shutdown)
+Adresu IP
+Czasem także dodatkowej karty (np. serial do połączenia WAN)
+
+=   Open a new instance of Packet Tracer. Create a new network with at least two LANs connected by a WAN. Connect all the devices. Investigate the original Packet Tracer activity to see what else you might need to do to make your new network functional. Record your thoughts and save your Packet Tracer file. You may want to revisit your network later after you have mastered a few more skills.
+Połączenia między urządzeniami
+Skonfigurowane adresy IP
+Odpowiednie trasy (routing)
+Można obserwować pakiety i debugować działanie za pomocą Packet Tracer
